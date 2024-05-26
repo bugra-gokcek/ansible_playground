@@ -29,7 +29,7 @@ Place the Dockerfile in your playground directory.
 
 Build the Docker image. It pulls the ***Ubuntu 22.04*** image from Docker Hub and creates the image with SSH installation and configuration.
 
-**Tip:** You don't need to have ansible in your virtual machines. This is one of the best features of Ansible.
+**Tip:** You don't need to install ansible in your virtual machines. This is one of the best features of Ansible.
 
 ```bash
 docker build --tag my_environment ./
