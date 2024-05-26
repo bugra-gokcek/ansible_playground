@@ -37,7 +37,7 @@ docker build --tag my_environment ./
 You can see your created image with following command :
 
 ```bash
-docker ps -a
+docker images -a
 ```
 
 ### Step 2.2: Create and run the virtual machines
