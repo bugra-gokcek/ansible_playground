@@ -1,0 +1,11 @@
+---
+- name: Apt update and upgrade
+  hosts: virtualmachines
+  remote_user: root
+  tasks:
+    - name: Apt update
+      ansible.builtin.apt:
+
+    - name: Apt upgrade
+      ansible.builtin.apt:
+        upgrade: yes

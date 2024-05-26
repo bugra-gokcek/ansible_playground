@@ -1,0 +1,9 @@
+---
+- name: Install nginx
+  hosts: virtualmachines
+  remote_user: root
+  tasks:
+    - name: Install nginx apt package
+      ansible.builtin.apt:
+        name: nginx
+        state: latest

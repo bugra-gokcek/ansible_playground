@@ -1,0 +1,11 @@
+---
+- name: My first play
+  hosts: virtualmachines
+  remote_user: root
+  tasks:
+    - name: Print message
+      ansible.builtin.debug:
+        msg: "Hello world!"
+
+    - name: Ping self
+      ansible.builtin.ping:
