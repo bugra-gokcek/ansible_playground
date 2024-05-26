@@ -100,7 +100,7 @@ ssh root@172.17.0.5
 ```
 Then type "**yes**".
 
-![alt text](image-1.png)
+![alt text](screenshots/image-1.png)
 
 ### Step 3: Run tasks with Ansible
 
@@ -130,6 +130,6 @@ The playbook.yaml has 2 tasks.
       ansible.builtin.ping:
 
 ```
-![alt text](image.png)
+![alt text](screenshots/image.png)
 
 You can create various tasks with Ansible. For example, I've added an **APT upgrade** and **nginx installer** to the repository for your review.
